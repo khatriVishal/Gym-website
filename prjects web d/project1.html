@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Hub </title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            background: url('img1.jpg');
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+            /* width:1080px;
+            height:500px; */
+            
+        }
+        .navbar{
+            display:inline-block;
+            height: 50px;
+            margin: 42px auto;
+            margin-left: 55px;
+            width:825px;
+            right:50px;
+        }
+        .first{
+            text-decoration: none;
+            color:white;
+            font-size: 40px;
+           margin-left: 27px;
+
+          
+        }
+        a:hover{
+           color:grey;
+        }
+        .btn{
+           
+        width:150px;
+        height:50px;
+         display: inline-block;
+         left:29px;
+         background-color: black;
+         color:white;
+         font-size: 24px;
+         box-sizing: border-box;
+         border-radius: 15px;
+        right:50px;
+         /* font-weight: bold; */
+         font-family: 'Baloo Bhai', cursive;
+         border:2px solid grey;
+       top:-1px;
+       position:relative;
+        }
+        #third{
+            position:relative;
+            left:64px;
+        }
+        .btn:hover{
+            color:grey;
+            background-color: rgb(31, 30, 30);
+        }
+        .forum{
+            display:inline-block;
+            border: 2px solid white;
+            height:599px;
+            width:617px;
+            top:25px;
+            color:white;
+            font-family: 'Baloo Bhai', cursive;
+            text-align: center;
+            left:434px;
+            position:relative;
+            border-radius: 12px;
+        }
+        .formclass{
+            border: 2px solid black;
+            width:504px;
+            height: 50px;
+            text-align-last: center;
+            font-family: 'Baloo Bhai', cursive;
+            font-size: 38px;
+            border-radius: 23px;
+            position:relative;
+            margin-top: 15px;
+        }
+        #btn2{
+            margin-top: 15px;
+            left:2px;
+        }
+        .formclass:hover{
+            cursor: pointer;
+        }
+        #logoimg{
+          filter:invert(94%);
+          display: inline block;
+          height: 98px;
+          position:relative;
+          left:20px;
+          top:40px;
+          width: 108px;
+        }
+        #logoimg:hover{
+          cursor:pointer;
+        }
+        .ptext{
+            color: white;
+            position:relative;
+            top:67px;
+            display: inline;
+            left:-95px;
+            font-size: 24px;
+            font-family: 'Baloo Bhai', cursive;
+        }
+    </style>
+</head>
+<body>
+  <img id = "logoimg" src="gym logo.png" alt="">
+  <p class="ptext"> Fitness Hub</p>
+    <nav class="navbar" >
+        <a href="#" class="first">Home</a>
+        <a href="#" class="first">About us</a>
+        <a href="#" class="first">Fitness calculator</a>
+        <a href="#" class="first">Contact us</a>
+        <!-- <button id="first">Call Us Now</button> -->
+    </nav>
+     <button class="btn" id="second">Call Us Now</button>
+     <button class="btn" id="third">Email Us</button>
+    <div class="forum">
+        <h1>Join the best gym of jodhpur now</h1>
+        <form action="noaction.php">
+          <div class="form-group">
+            <input type="text" name="" class = "formclass" placeholder="Enter your Name">
+          </div>
+          <div class="form-group">
+            <input type="text" name="" class = "formclass" placeholder="Enter your Age">
+          </div>
+          <div class="form-group">
+            <input type="text" name="" class = "formclass" placeholder="Enter your Gender">
+          </div>
+          <div class="form-group">
+            <input type="text" name="" class = "formclass" placeholder="Enter your Locality">
+          </div>
+          <div class="form-group">
+            <input type="text" name="" class = "formclass" placeholder="Enter your Email-id">
+          </div>
+          <div class="form-group">
+            <input type="text" name="" class = "formclass" placeholder="Enter your Mob-No">
+            <div><button class="btn" id = "btn2">submit</button></div>
+          </div>  
+        </form>
+    </div>
+     
+</body>
+</html>
